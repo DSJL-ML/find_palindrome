@@ -1,6 +1,7 @@
-# find the longest palindromic substring in a given string s
 def palindrome_string(s):
-    # for loop starting with the longest possible length of substring having palindrome = length/2
+    """This function finds the longest palindrome substring in a given string s."""
+    
+    # for-loop starting with the longest possible length of substring having palindrome = length/2
     substring = None
     for i in range(int(len(s)/2),2,-1):
     # iterate through all the possible length i of substring, starting with the longest length (reverse iteration)
